@@ -3,8 +3,14 @@
         "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-    <display-name>Awesome MVC Framework</display-name>
-
-    <!--Configurare servleti-->
-
-</web-app>
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>Dispatcher</servlet-name>
+        <servlet-class>ro.z2h.MyDispatchServlet</servlet-class>
+        <description>MVC DispatcherServlet</description>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Dispatcher</servlet-name>
+    <url-pattern>/mvc/*</url-pattern>
+</servlet-mapping>
+        </web-app>

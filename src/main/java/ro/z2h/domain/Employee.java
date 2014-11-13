@@ -106,4 +106,9 @@ public class Employee {
     public void setCommissionPoints(Double commissionPoints) {
         this.commissionPoints = commissionPoints;
     }
+
+    @Override
+    public String toString() {
+      return  getLastName();
+    }
 }
